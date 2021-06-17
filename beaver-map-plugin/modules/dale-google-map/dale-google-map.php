@@ -45,9 +45,7 @@ class FLExampleModule extends FLBuilderModule {
      * @method update
      * @param $settings {object}
      */      
-    public function update($settings){
-        // $settings->textarea_field .= ' - this text was appended in the update method.';
-        
+    public function update( $settings ){        
         return $settings;
     }
 

@@ -15,12 +15,16 @@
  ?>
 
 (function($) {
-	// For testing :)
+	// For testing and learning :)
 	//	console.log('Module ID: <?php echo $id; ?>');
 	//	console.log('Heading: <?php echo $settings->map_heading; ?>');
 
+
+	// Do NOT make fun of me for what follows. 
+	// I realized wayyyyy too far along how I could approach this all differently, but it works ;p
+
 	// Initialize and add the map
-	// The city of Toronto
+	// The city of Toronto for default
 	const toronto = { lat: 43.6534817, lng: -79.3839347 };
 	// The map, centered at Toronto
 	const map = new google.maps.Map(document.getElementById("<?php echo 'dale-google-map-' . $id; ?>"), {
